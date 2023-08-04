@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* body styling */
+body{
+    background-color: black;
+}
+/* card body */
+.meet__body{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 100%;
+    height: 30vh;
+    max-width: 1000px;
+    margin:10px auto;
+    gap: 10px;
+}
+
+.card{
+    background-color:#3c4042;
+    /* border: 2px solid red; */
+    width: 100%;
+    height: 29vh;
+    border-radius: 8px;
+    margin: auto;
+}
+
+.card__wrapper{
+    /* border: 2px solid blue; */
+    height: 30vh;
+    /* height: 100%; */
+    padding: .4rem;
+}
+
+/* mute icon  */
+.icon{
+    width: 25px;
+    height: 25px;
+    background-color:black;
+    border-radius:100px;
+    display: flex;
+    float: right;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* img container */
+.image{
+    object-fit: cover;
+    width: 120px;
+    height: 120px;
+    margin: 1.3rem auto;
+    border-radius: 100%;
+    align-items: center;
+    justify-content: center;
+}
+/* img tag */
+.image img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+}
+
+/* down icons styling */
+
+.down__icons{
+    display: flex;
+    width: 100%;
+    /* height: 25px; */
+    margin:410px auto;
+    max-width: 1250px;  
+    justify-content: space-around;
+
+}
+
+.bottom__left{
+    display: flex;
+    justify-content: space-around;
+    color: #fff;
+    align-items: center;
+    padding-left: 10px;
+}
+
+#time{
+    border-right: 2px solid gray;
+    margin-right:10px ;
+}
+
+.icons{
+    color: white;
+    justify-content:space-between;
+    text-align: center;
+    display: flex;
+    margin:auto;
+    width:22%;  
+    align-items: center;
+    padding-left: 20px;
+}
+
+.red__icon{
+    width: 27px;
+    height: 27px;
+    background-color:red;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.gray__icon{
+    width: 27px;
+    height: 27px;
+    background-color:gray;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bottom__right__icons{
+    color: gray;
+    justify-content: space-evenly;
+    display: flex;
+    margin: auto;
+    width: 10%;
+    margin-right: 10px;
+}
